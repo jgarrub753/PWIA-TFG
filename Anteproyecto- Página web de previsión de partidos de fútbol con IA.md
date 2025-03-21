@@ -23,6 +23,7 @@ Este proyecto va a permitir ver los pronósticos de los siguientes partidos de l
 - **Configuración de la página**: 5 horas
 - **Corrección de errores**: 5 horas
 - **Prueba del proyecto**: 5 horas
+
 **Horas totales que se planifican para el proyecto**: 60
 
 
