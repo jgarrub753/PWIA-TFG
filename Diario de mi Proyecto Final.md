@@ -5,3 +5,6 @@ Ya puedo usar su IA para seguir mi proyecto. Lo siguiente será buscar informaci
 
 ## 23/03/2025
 Estoy intentando no tener que usar el cmd para utilizar Gemma a través de un archivo app.py
+## 24/03/2025
+He conseguido instalar Gemma en mi equipo y estoy intentando de poder usarla sin el CMD a base de python. Hoy he conseguido crear una página que me dejaba mandar el prompt pero daba error en la respuesta.
+1º error: tenía que usar forzadamente al principo el CMD, ya que solo había instalado Ollama y no tenía instlado Gemma en mi equipo.
