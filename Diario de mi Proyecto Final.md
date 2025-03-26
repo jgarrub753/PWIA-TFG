@@ -8,3 +8,7 @@ Estoy intentando no tener que usar el cmd para utilizar Gemma a través de un ar
 ## 24/03/2025
 He conseguido instalar Gemma en mi equipo y estoy intentando de poder usarla sin el CMD a base de python. Hoy he conseguido crear una página que me dejaba mandar el prompt pero daba error en la respuesta.
 1º error: tenía que usar forzadamente al principo el CMD, ya que solo había instalado Ollama y no tenía instlado Gemma en mi equipo.
+## 25/03/2025
+He intentado crear una página con python y HTML para escribirle un prompt y que la respuesta sea dada por Gemma, pero no lo he conseguido ya que no se configura Gemma con la página.
+## 26/03/2025
+He conseguido crear la página, pero las respuesta con Gemma no he conseguido optimizarla, ya que da respuestas raras o errores.
