@@ -12,3 +12,5 @@ He conseguido instalar Gemma en mi equipo y estoy intentando de poder usarla sin
 He intentado crear una página con python y HTML para escribirle un prompt y que la respuesta sea dada por Gemma, pero no lo he conseguido ya que no se configura Gemma con la página.
 ## 26/03/2025
 He conseguido crear la página, pero las respuesta con Gemma no he conseguido optimizarla, ya que da respuestas raras o errores.
+## 27/03/2025
+He conseguido optimizar un poco la página y estoy buscando información y probando cuál es la mejor API futbolística para mi proyecto.
