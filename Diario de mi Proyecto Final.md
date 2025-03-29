@@ -14,3 +14,7 @@ He intentado crear una página con python y HTML para escribirle un prompt y que
 He conseguido crear la página, pero las respuesta con Gemma no he conseguido optimizarla, ya que da respuestas raras o errores.
 ## 27/03/2025
 He conseguido optimizar un poco la página y estoy buscando información y probando cuál es la mejor API futbolística para mi proyecto.
+## 28/03/2025
+He conseguido instalar Gemma bien e integrarla en una página. He creado los archivos de la página: index.html, style.css y app.py
+## 29/03/2025
+Estoy buscando API de fútbol para ver cual se adapta mejor a la finalidad de mi página.
