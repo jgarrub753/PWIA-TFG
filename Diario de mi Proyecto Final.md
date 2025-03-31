@@ -1,6 +1,6 @@
 ## 20/03/2025
-He instalado Ollama desde su página web para poder usar la IA de Gemma en su versión 7b. 
-Para ello, he tenido que entrar al CMD de mi equipo, y ya con Ollama instalado he ejecutado el comando `ollama run gemma:7b`. 
+He instalado Ollama desde su página web para poder usar la IA de Gemma en su versión 2b. 
+Para ello, he tenido que entrar al CMD de mi equipo, y ya con Ollama instalado he ejecutado el comando `ollama run gemma:2b`. 
 Ya puedo usar su IA para seguir mi proyecto. Lo siguiente será buscar información detallada sobre los equipos de LaLiga. Para facilitar el uso de estos, usaremos una API.
 
 ## 23/03/2025
@@ -20,3 +20,4 @@ He conseguido instalar Gemma bien e integrarla en una página. He creado los arc
 Estoy buscando API de fútbol para ver cual se adapta mejor a la finalidad de mi página.
 ## 31/03/2025
 Me he decantado por usar API Football, ya que se adapta perfectamente a las necesidades de mi página web y he conseguido insertarla a través de mi clave API.
+Ya he conseguido que me de resultado de partidos anteriores y algún pronóstico, pero hay que pulirlo para que de mejores datos y resultados de partidos.
