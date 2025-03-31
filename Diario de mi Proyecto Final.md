@@ -18,3 +18,5 @@ He conseguido optimizar un poco la página y estoy buscando información y proba
 He conseguido instalar Gemma bien e integrarla en una página. He creado los archivos de la página: index.html, style.css y app.py
 ## 29/03/2025
 Estoy buscando API de fútbol para ver cual se adapta mejor a la finalidad de mi página.
+## 31/03/2025
+Me he decantado por usar API Football, ya que se adapta perfectamente a las necesidades de mi página web y he conseguido insertarla a través de mi clave API.
