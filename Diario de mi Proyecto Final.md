@@ -2,7 +2,6 @@
 He instalado Ollama desde su página web para poder usar la IA de Gemma en su versión 2b. 
 Para ello, he tenido que entrar al CMD de mi equipo, y ya con Ollama instalado he ejecutado el comando `ollama run gemma:2b`. 
 Ya puedo usar su IA para seguir mi proyecto. Lo siguiente será buscar información detallada sobre los equipos de LaLiga. Para facilitar el uso de estos, usaremos una API.
-
 ## 23/03/2025
 Estoy intentando no tener que usar el cmd para utilizar Gemma a través de un archivo app.py
 ## 24/03/2025
@@ -21,3 +20,6 @@ Estoy buscando API de fútbol para ver cual se adapta mejor a la finalidad de mi
 ## 31/03/2025
 Me he decantado por usar API Football, ya que se adapta perfectamente a las necesidades de mi página web y he conseguido insertarla a través de mi clave API.
 Ya he conseguido que me de resultado de partidos anteriores y algún pronóstico, pero hay que pulirlo para que de mejores datos y resultados de partidos.
+## 1/04/2025
+He conseguido que me de la probabilidad de que empate, gane o pierda un equipo. También me devuelve los datos de los partidos de local y visitante. Por último, devuelve los goles a favor y en contra jugando como local y como visitante.
+Errores: no encontraba a veces los equipos o los porcentajes ponía lo mismo para todos los resultados.
