@@ -23,3 +23,6 @@ Ya he conseguido que me de resultado de partidos anteriores y algún pronóstico
 ## 1/04/2025
 He conseguido que me de la probabilidad de que empate, gane o pierda un equipo. También me devuelve los datos de los partidos de local y visitante. Por último, devuelve los goles a favor y en contra jugando como local y como visitante.
 Errores: no encontraba a veces los equipos o los porcentajes ponía lo mismo para todos los resultados.
+## 05/04/2025
+He conseguido hacer una tabla que me da la probabilidad de victoria, derrota y empate. Y otras dos tablas en las cuales me da la información en la que se basa para dar dichos pronósticos.
+Estas tablas llevan detalladamente la información divididas en temporadas y dentro de estas están las victorias, derrotas, empates, goles a favor y goles en contra.
