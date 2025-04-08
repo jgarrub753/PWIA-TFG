@@ -20,9 +20,13 @@ Estoy buscando API de fútbol para ver cual se adapta mejor a la finalidad de mi
 ## 31/03/2025
 Me he decantado por usar API Football, ya que se adapta perfectamente a las necesidades de mi página web y he conseguido insertarla a través de mi clave API.
 Ya he conseguido que me de resultado de partidos anteriores y algún pronóstico, pero hay que pulirlo para que de mejores datos y resultados de partidos.
-## 1/04/2025
+## 01/04/2025
 He conseguido que me de la probabilidad de que empate, gane o pierda un equipo. También me devuelve los datos de los partidos de local y visitante. Por último, devuelve los goles a favor y en contra jugando como local y como visitante.
 Errores: no encontraba a veces los equipos o los porcentajes ponía lo mismo para todos los resultados.
 ## 05/04/2025
 He conseguido hacer una tabla que me da la probabilidad de victoria, derrota y empate. Y otras dos tablas en las cuales me da la información en la que se basa para dar dichos pronósticos.
 Estas tablas llevan detalladamente la información divididas en temporadas y dentro de estas están las victorias, derrotas, empates, goles a favor y goles en contra.
+## 07/04/2025
+He seguido entenando la IA y he cambiado el CSS para hacer la página más vistosa.
+Errores: he cambiado el codigo app.py porque siempre me daba al equipo visitante como ganador, esto se debía a que no recogía bien las estadísticas del equipo visitante y lo ponía como ganador con un porcentaje
+aleatorio. Después del cambio en el código me da un pronóstico de partido más coherente.
