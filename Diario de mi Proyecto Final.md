@@ -30,3 +30,7 @@ Estas tablas llevan detalladamente la información divididas en temporadas y den
 He seguido entenando la IA y he cambiado el CSS para hacer la página más vistosa.
 Errores: he cambiado el codigo app.py porque siempre me daba al equipo visitante como ganador, esto se debía a que no recogía bien las estadísticas del equipo visitante y lo ponía como ganador con un porcentaje
 aleatorio. Después del cambio en el código me da un pronóstico de partido más coherente.
+## 08/04/2025
+He editado el css metiendo una foto de background. He insertado un botón para borrar las predicciones y lo que haya escrito para que el usuario no lo tenga que hacer manualmente.
+## 09/04/2025
+He metido un aviso para cuando el usuario meta algo que no esta separado por una ",".
