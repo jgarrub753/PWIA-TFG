@@ -1,0 +1,224 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("images/laliga-espana-que-equipo-la-ha-ganado-mas-veces.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.6); /* Transparencia para que se vea el fondo */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Formulario de entrada */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Botón */
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos de la predicción */
+.prediction {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+table td {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Estilos para el análisis */
+p {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+strong {
+  color: #fff;
+}
+
+/* Botón especial */
+.btn-9 {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border-radius: 99rem;
+  padding: 0.8rem 3rem;
+  position: relative;
+  border-width: 2px;
+  z-index: 0;
+  transition: background-color 0.3s;
+}
+
+.btn-9:hover {
+  background-color: #45a049;
+}
+
+a.btn-9 {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border-radius: 99rem;
+  padding: 0.8rem 3rem;
+  position: relative;
+  border-width: 2px;
+  z-index: 0;
+  transition: background-color 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.btn-9:hover {
+  background-color: red;
+}
+
+
+
+/* Imagen principal */
+.imagen-principal {
+  display: block;
+  margin: 20px auto;
+  max-width: 100px;
+  height: auto;
+}
+
+/* Escudos */
+.escudos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+.escudo-item {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.escudo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.nombre-equipo {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  visibility: hidden;
+}
+
+.escudo-item:hover .nombre-equipo {
+  opacity: 1;
+  visibility: visible;
+}
+
+.escudo-item:hover .escudo {
+  transform: scale(1.1);
+}
+
+.error-message {
+  margin-top: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
