@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción LaLiga</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="seleccionContainer">
+        <div class="column">
+            <h3 class="nombreEquipo">LOCAL</h3>
+            <div id="grid1" class="grid-container">
+                {% for nombre, ruta in logos.items() %}
+                <img src="{{ ruta }}" alt="{{ nombre }}" class="grid-item" onclick="seleccionar(this, 'left')"
+                    title="{{ nombre }}">
+                {% endfor %}
+            </div>
+            <img id="seleccionIzquierda" class="preview-img" src="" alt="" style="display: none;">
+            <p id="seleccionIzquierdaNombre"></p>
+        </div>
+
+        <div class="separador" style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+            <a href="https://www.laliga.com/"><img src="../static/images/LaLiga256x.png" alt="" class="liga_foto"></a>
+            <button class="boton-predi" onclick="enviarSeleccion()">Generar Predicción</button>
+            <button id="random-match-btn">🎲 Partido Aleatorio</button>
+            <div class="vs-text">VS</div>
+        </div>
+
+        <div class="column">
+            <h3 class="nombreEquipo">VISITANTE</h3>
+            <div id="grid2" class="grid-container">
+                {% for nombre, ruta in logos.items() %}
+                <img src="{{ ruta }}" alt="{{ nombre }}" class="grid-item" onclick="seleccionar(this, 'right')"
+                    title="{{ nombre }}">
+                {% endfor %}
+            </div>
+            <img id="seleccionDerecha" class="preview-img" src="" alt="" style="display: none;">
+            <p id="seleccionDerechaNombre"></p>
+        </div>
+    </div>
+
+    <div id="resultado"></div>
+    <audio id="audioPronostico" controls style="display:none; width: 100%; margin-top: 20px;"></audio>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+
+</html>
